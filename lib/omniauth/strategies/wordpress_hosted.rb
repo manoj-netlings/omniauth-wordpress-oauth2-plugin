@@ -23,6 +23,7 @@ module OmniAuth
             name: raw_info['display_name'],
             email: raw_info['user_email'],
             nickname: raw_info['user_nicename'],
+            avatar: raw_info['avatar_url'],
             urls: { "Website" => raw_info['user_url'] }
         }
       end
